@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<title>reminder</title>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" type="text/javascript"></script>
+	
+	<link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
+	<script src="https://appsforoffice.microsoft.com/lib/1.0/hosted/office.js" type="text/javascript"></script>
+	
+	<link href="../App.css" rel="stylesheet" type="text/css" />
+	<script src="../App.js" type="text/javascript"></script>
+	
+	<link href="Home.css" rel="stylesheet" type="text/css" />
+	<script src="Home.js" type="text/javascript"></script>
+</head>
+<body>
+	<!-- Page content -->
+	<div id="content-header">
+		<div class="padding">
+			<table style="margin-top:-3px;margin-bottom: 5px;">
+				<tr>
+					<td rowspan="2"><textarea id="input" rows="3" cols="35" style="min-width: 250px; max-width: 250px; min-height: 60px; max-height: 60px; margin-top: -5px; margin-bottom: 5px;"></textarea></td>					
+					<td><button style="width: 65px; height: 22px; border-radius: 40px;" onclick="createFunction()">Add</button></td>
+				</tr>
+				<tr>
+					<td><button style="width: 65px; margin-top: 0px; height: 22px; border-radius: 40px;" onclick="deleteFunction()">Remove</button></td>
+				</tr>				
+			</table>
+		</div>
+	</div>
+	<div id="content-main">
+		<div class="padding">
+			<table id="myTable">
+			<tr>
+				<td style="width: 50px"></td>
+			    <td rowspan="2" style="width: 300px margin-left: 10px"></td>
+			</tr>
+			<tr>				
+			</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
